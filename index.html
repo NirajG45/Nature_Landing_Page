@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nature Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo"><i class="fas fa-leaf"></i> NatureVibe</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section id="home" class="hero parallax">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Reconnect with Nature</h1>
+      <p>Discover peace, beauty, and balance in nature.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="features" class="features" data-aos="fade-up">
+    <h2>Why Choose Nature?</h2>
+    <div class="feature-boxes">
+      <div class="box" data-aos="zoom-in"><i class="fas fa-tree"></i><h3>Green Environment</h3><p>Explore forests, mountains, and lakes full of life.</p></div>
+      <div class="box" data-aos="zoom-in"><i class="fas fa-water"></i><h3>Clean Water</h3><p>Experience the purity of rivers and waterfalls.</p></div>
+      <div class="box" data-aos="zoom-in"><i class="fas fa-sun"></i><h3>Fresh Air</h3><p>Feel the breeze and breathe in the cleanest air.</p></div>
+      <div class="box" data-aos="zoom-in"><i class="fas fa-mountain"></i><h3>Adventure Trails</h3><p>Hike and explore the beauty of untouched landscapes.</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-right">
+    <div class="about-content">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Nature" />
+      <div class="text">
+        <h2>About NatureVibe</h2>
+        <p>We aim to reconnect people with the natural world through immersive experiences, eco-tours, and sustainable living practices. Let’s protect nature together.</p>
+      </div>
+    </div>
+  </section>
+
+    <div class="gallery-icons">
+        <div class="icon-box" style="--i: 1;">
+            <i class="fas fa-tree"></i>
+            <p>Forest</p>
+        </div>
+        <div class="icon-box" style="--i: 2;">
+            <i class="fas fa-water"></i>
+            <p>Waterfall</p>
+        </div>
+        <div class="icon-box" style="--i: 3;">
+            <i class="fas fa-mountain"></i>
+            <p>Mountains</p>
+        </div>
+        <div class="icon-box" style="--i: 4;">
+            <i class="fas fa-sun"></i>
+            <p>Sunrise</p>
+        </div>
+        <div class="icon-box" style="--i: 5;">
+            <i class="fas fa-leaf"></i>
+            <p>Leaves</p>
+        </div>
+        <div class="icon-box" style="--i: 6;">
+            <i class="fas fa-cloud-rain"></i>
+            <p>Rain</p>
+        </div>
+    </div>
+
+  <section id="testimonials" class="testimonials" data-aos="fade-left">
+    <h2>What People Say</h2>
+    <div class="testimonial-cards">
+      <div class="card">
+        <p>"A breathtaking escape into nature's beauty. Truly peaceful and unforgettable!"</p>
+        <h4>- Aditi Sharma</h4>
+      </div>
+      <div class="card">
+        <p>"NatureVibe helped me find balance again. Their experiences are pure magic."</p>
+        <h4>- Rohan Mehta</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 NatureVibe. All rights reserved.</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <!-- Leaf animation container -->
+    <div class="leaf-container">
+        <i class="fas fa-leaf leaf" style="left: 20%; animation-delay: 0s;"></i>
+        <i class="fas fa-leaf leaf" style="left: 70%; animation-delay: 2s;"></i>
+        <i class="fas fa-leaf leaf" style="left: 40%; animation-delay: 1s;"></i>
+        <i class="fas fa-leaf leaf" style="left: 55%; animation-delay: 3s;"></i>
+    </div>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
